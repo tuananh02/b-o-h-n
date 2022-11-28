@@ -1,0 +1,40 @@
+
+*{margin: 0; padding: 0;}
+.topnav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    background-color: black;
+    margin: 0px;
+}
+.topnav .icon i{
+    display: none;
+}
+
+.topnav i{
+    position: relative;
+    margin-top: 0px;
+    margin-left: 110px;
+    display: none;
+}
+
+.topnav #myLinks a{
+    text-decoration: none;
+    cursor: pointer;
+    color: orange;
+}
+.imagechange{
+    width: 160px;
+    height: 100px;
+}
+.topnav #myLinks{
+    display: inline-block;
+}
+#myLinks a{
+    display: inline-block;
+    padding: 0 25px;
+   
+}

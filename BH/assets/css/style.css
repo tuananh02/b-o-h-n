@@ -1,0 +1,209 @@
+
+*{margin: 0; padding: 0;}
+.topnav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    background-color: black;
+    margin: 0px;
+}
+.topnav .icon i{
+    display: none;
+}
+
+.topnav i{
+    position: relative;
+    margin-top: 0px;
+    margin-left: 110px;
+    display: none;
+}
+
+.topnav #myLinks a{
+    text-decoration: none;
+    cursor: pointer;
+    color: orange;
+}
+.imagechange{
+    width: 160px;
+    height: 100px;
+}
+.topnav #myLinks{
+    display: inline-block;
+}
+#myLinks a{
+    display: inline-block;
+    padding: 0 25px;
+   
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    height: 500px;
+    font-family: 'Montserrat',sans-serif;
+    background-image:url(./image/man-transferring-money-woman-via-smartphone-online-transaction-banking-flat-vector-illustration-finance-digital-technology-concept_74855-10107.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+}
+.chuyentien, .chuyentiennga, .chuyentienvn{
+    background-color: #f2efefe6;
+ 
+}
+.content1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.chuyentien h2{
+    width: 370px;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0px;
+    
+
+
+}
+.chuyentien a{
+    text-decoration: none;
+    color: white;
+}
+.chuyentiennga ,.chuyentienvn{
+    width: 250px;
+    height: 200px;
+ 
+}
+.content{
+    min-width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+.tigia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    width: 100%;
+    height: 60px;
+}
+.chuyentien{
+    padding: 10px 15px;
+    margin-bottom: 40px;
+}
+.chuyentien button{
+    margin: 10px 0px 5px;
+    padding: 6px 15px;
+    color: white;
+    background-color: orange;
+    font-size: 16px;
+    font-family: 'Montserrat',sans-serif;
+    
+
+}
+.chuyentienvn img,.chuyentiennga img{
+  height: 70px;
+  width: 70px;
+  
+}
+.chuyentienvn, .chuyentiennga{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 600;
+}
+.chuyentiennga button, .chuyentienvn button{
+    background-color: orange;
+    color: white;
+    padding: 6px 30px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 16px;
+}
+.chuyentienngabtn, .chuyentienvnbtn{
+    display: flex;
+    padding: 15px 0px;
+    background-color: black;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.chuyentiennga p, .chuyentienvn p{
+    margin: 15px 0px;
+}
+.us, .us h2{
+    display: flex;
+    background-color: aliceblue;
+}
+.us .icons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.us .icons a{
+    font-size: 50px;
+    color: black;
+}
+.us .icons img{
+    padding-left: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .main{
+        display: block;
+        height: 465px;
+    }
+    .content1{
+        display: block;
+        margin-top: 2rem;
+    }
+    .content{
+        background-color: rgb(237, 235, 209);
+        height: auto;
+    }
+    .chuyentien{
+        display: none;
+    }
+    .us{
+        margin-top: 2rem;
+    }
+    .chuyentiennga, .chuyentienvn{
+        width: 100%;
+    }
+    .topnav .icon i{
+        display:inline-block;
+        color: orange;
+        position: absolute;
+        right: 66px;
+        top: 28px;
+        font-size: 40px;
+    }
+    .topnav #myLinks a{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+        color: orange;
+        margin-top: 0;
+       
+
+    }
+    .topnav{
+        background-color: black;
+        display: block;
+    }
+    .topnav #myLinks{
+        width: 100%;
+        background-color: black;
+        display: none;
+    }
+   
+ 
+}
